@@ -1,0 +1,60 @@
+/* Style specific to portfolio.html*/
+
+.portfolioRow {
+  margin-bottom: 40px;
+}
+
+.projectPicture {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 5px 5px 5px 5px rgb(205, 206, 203);
+  border-radius: 4px;
+}
+
+figcaption {
+  position: flex;
+  background-color: #eee;
+  color: rgb(165, 165, 159);
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  box-shadow: 5px 5px 5px 2px rgb(205, 206, 203);
+  border-radius: 4px;
+}
+
+.git {
+  color: rgb(165, 165, 159) !important;
+}
+
+.git:active:focus {
+  color: #444 !important;
+}
+
+.git:visited {
+  color: rgb(187, 187, 179) !important;
+}
+
+.git:focus {
+  color: #444 !important;
+}
+
+.git:active {
+  color: #444 !important;
+}
+
+.git:hover {
+  color: #444 !important;
+}
+
+.fluidicon {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.fluidicon:hover {
+  opacity: 80%;
+}

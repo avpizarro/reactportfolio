@@ -1,0 +1,178 @@
+/* Content style shared through the website */
+
+body {
+  background-image: url("./Images/background.jpg");
+  min-height: 100%;
+}
+
+.container {
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  padding-bottom: 100px;
+}
+
+.row {
+  padding: 20px;
+}
+
+/* Content title */
+
+h1 {
+  width: 100%;
+  height: 60px;
+  padding-left: 0;
+  border: 0;
+  border-bottom: 3px;
+  border-color: rgb(187, 187, 179);
+  border-style: solid;
+  font-weight: 800;
+  font-size: 1.8em;
+  font-family: "Castoro";
+  letter-spacing: 0.025em;
+  line-height: 180%;
+  color: rgb(160, 160, 153);
+  text-align: right;
+  margin-right: 0px;
+  text-shadow: 2px 2px 4px #eee;
+}
+
+/* Style specific to contact.html*/
+
+.form-group {
+  color: rgb(165, 165, 159);
+}
+
+.btn-primary {
+  background-color: #eee;
+  border-color: #eee;
+  color: rgb(160, 160, 153);
+  box-shadow: 5px 5px 5px 2px rgb(205, 206, 203);
+  margin-right: 20px;
+}
+
+.btn:active:focus {
+  background-color: rgb(187, 187, 179) !important;
+  border-color: rgb(187, 187, 179) !important;
+  box-shadow: 5px 5px 5px 2px rgb(205, 206, 203) !important;
+}
+
+.btn:focus {
+  background-color: rgb(187, 187, 179) !important;
+  border-color: rgb(187, 187, 179) !important;
+  box-shadow: 5px 5px 5px 2px rgb(205, 206, 203) !important;
+}
+
+.btn:hover {
+  background-color: #eee;
+  border-color: #eee;
+  color: #444;
+  box-shadow: 5px 5px 5px 2px rgb(205, 206, 203) !important;
+}
+
+.btn:active {
+  background-color: rgb(187, 187, 179) !important;
+  border-color: rgb(187, 187, 179) !important;
+  box-shadow: 5px 5px 5px 2px rgb(205, 206, 203) !important;
+}
+
+.resume {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Style specific to index.html */
+
+.col-lg-6 {
+  margin-top: 10px;
+}
+
+.profileDescription {
+  line-height: 2em;
+  color: rgb(160, 160, 153);
+  font-weight: 400;
+  margin-top: 0px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.profilePicture {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.citation {
+  position: absolute;
+  bottom: 7%;
+  left: 5%;
+  background-color: transparent;
+  box-shadow: none;
+  width: 15%;
+  color: rgb(199, 197, 197);
+}
+
+/* Breakpoint at 992px to change the profile description alignement*/
+@media only screen and (max-width: 992px) {
+  .profileDescription {
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+/* Breakpoint at 768px to change the navigation bar, content container size and profile picture 
+note: the nav bar styling needs to change at 768px not 640px due to the length of the name*/
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 100%;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .navbar {
+    padding: 0px;
+  }
+  .navButtons {
+    margin: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .container {
+    top: 140px;
+    right: 20px;
+    left: 20px;
+  }
+
+  .profilePicture {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactContainer {
+    top: 140px;
+    right: 0px;
+    left: 0px;
+  }
+
+  .contactRow {
+    padding: 5px;
+  }
+
+  .contactColumn {
+    padding: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .nav-link {
+    padding: 5px;
+    padding-bottom: 10px;
+  }
+}
