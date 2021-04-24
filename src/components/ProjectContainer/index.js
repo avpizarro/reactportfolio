@@ -4,7 +4,7 @@ import "./style.css";
 
 function ProjectContainer() {
   return (
-    <article class="container" style={{maxWidth: "90%"}}>
+    <article class="container">
       <div class="row">
         <div class="col-sm-12">
           <h1>Portfolio</h1>
@@ -14,10 +14,11 @@ function ProjectContainer() {
       <div class="row">
         <div class="col-lg-2"></div>
 
-        <div class="col-lg-8"></div>
+        <div class="col-lg-8">
           <Project />
       </div>
-      <div class="col-lg-2 "></div>
+      <div class="col-lg-2"></div>
+      </div>
     </article>
   );
 }

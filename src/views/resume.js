@@ -9,7 +9,7 @@ function Resume() {
       <article class="container">
         <div class="row">
           <div class="col-sm-12">
-            <img className="projectPicture" src={ResumeImage} alt="Resume" style={{maxWidth: "90%"}}></img>
+            <img className="projectPicture" src={ResumeImage} alt="Resume"></img>
           </div>
         </div>
       </article>

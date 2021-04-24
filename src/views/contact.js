@@ -5,7 +5,7 @@ function About() {
   return (
     <div>
       <Header />
-      <article class="container contactContainer" style={{maxWidth: "100%"}}>
+      <article class="container contactContainer">
         <div class="row contactRow contactColumn">
           <div class="col-sm-12">
             <h1>Contact</h1>
@@ -13,18 +13,22 @@ function About() {
         </div>
 
         <div class="row contactRow">
-          <div class="col-sm-12 contactColumn">
+          <div class="col-sm-8 contactColumn">
             <button
               type="submit"
               class="btn btn-primary linkedIn"
-              onClick={() =>  window.open('https://www.linkedin.com/in/avpizarro', "_blank")}
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/avpizarro", "_blank")
+              }
             >
               LinkedIn
             </button>
             <button
               type="submit"
               class="btn btn-primary gitHub"
-              onClick={() =>  window.open('https://github.com/avpizarro', "_blank")}
+              onClick={() =>
+                window.open("https://github.com/avpizarro", "_blank")
+              }
             >
               GitHub
             </button>

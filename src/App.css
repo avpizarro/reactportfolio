@@ -11,6 +11,7 @@ body {
   left: 50px;
   top: 100px;
   padding-bottom: 100px;
+  max-width: 90%;
 }
 
 .row {
@@ -78,7 +79,7 @@ h1 {
 }
 
 .resume {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -154,11 +155,12 @@ note: the nav bar styling needs to change at 768px not 640px due to the length o
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
   .contactContainer {
     top: 140px;
     right: 0px;
     left: 0px;
+    max-Width: 100%;
   }
 
   .contactRow {
