@@ -17,10 +17,8 @@ The initial portofolio was refactored to use React.
 
 ![Portfolio](readmeImages/portfolio.png)
 
-#### About me
+#### About me & Contact
 
-![About](readmeImages/aboutMe.png)
+![About](readmeImages/aboutMeContact.png)
 
-#### Contact
 
-![Contact](readmeImages/contact.png)
