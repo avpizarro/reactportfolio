@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.623e6188.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.39aa35b0.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.39aa35b0.chunk.js.map",
+    "main.js": "/reactportfolio/static/js/main.fa6cf54e.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.fa6cf54e.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.f43002de.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.f43002de.js.map",
     "static/js/2.5ca52c26.chunk.js": "/reactportfolio/static/js/2.5ca52c26.chunk.js",
@@ -16,6 +16,7 @@
     "static/media/burger.c5cb4cc1.png": "/reactportfolio/static/media/burger.c5cb4cc1.png",
     "static/media/dashboard.1c8fecfe.png": "/reactportfolio/static/media/dashboard.1c8fecfe.png",
     "static/media/githubicon.e922c0bc.png": "/reactportfolio/static/media/githubicon.e922c0bc.png",
+    "static/media/googlebookssearch.05aed48d.png": "/reactportfolio/static/media/googlebookssearch.05aed48d.png",
     "static/media/melbourneReboot.009e152e.png": "/reactportfolio/static/media/melbourneReboot.009e152e.png",
     "static/media/profilePicture.bb6aa059.jpg": "/reactportfolio/static/media/profilePicture.bb6aa059.jpg",
     "static/media/restaurateur.42699825.png": "/reactportfolio/static/media/restaurateur.42699825.png",
@@ -27,6 +28,6 @@
     "static/js/runtime-main.f43002de.js",
     "static/js/2.5ca52c26.chunk.js",
     "static/css/main.623e6188.chunk.css",
-    "static/js/main.39aa35b0.chunk.js"
+    "static/js/main.fa6cf54e.chunk.js"
   ]
 }
