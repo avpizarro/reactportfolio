@@ -4,6 +4,7 @@ import melbourneReboot from "../../Images/melbourneReboot.png";
 import restaurateur from "../../Images/restaurateur.png";
 import weatherDashboard from "../../Images/weatherDashboard.png";
 import burger from "../../Images/burger.png";
+import googlebooksearch from "../../Images/googlebookssearch.png";
 import search from "../../Images/search.png";
 import dashboard from "../../Images/dashboard.png";
 
@@ -15,6 +16,7 @@ function ProjectImage() {
     burger,
     dashboard,
     search,
+    googlebooksearch
   ];
 
   const titles = [
@@ -24,6 +26,7 @@ function ProjectImage() {
     "Eat Da Burger!",
     "Workout Tracker",
     "Employee Directory",
+    "Google Books Search",
   ];
 
   const websites = [
@@ -33,6 +36,7 @@ function ProjectImage() {
     "https://dry-basin-87988.herokuapp.com/",
     "https://evening-journey-59079.herokuapp.com/",
     "https://quiet-beyond-63990.herokuapp.com/",
+    "https://fierce-ridge-94216.herokuapp.com/",
   ];
 
   const github = [
@@ -42,6 +46,7 @@ function ProjectImage() {
     "https://github.com/avpizarro/burger.git",
     "https://github.com/avpizarro/workoutTracker.git",
     "https://github.com/avpizarro/employeedirectory.git",
+    "https://github.com/avpizarro/googlebookssearchreact.git",
   ];
 
   const linkedImagesElements = [];
