@@ -7,46 +7,51 @@ import burger from "../../Images/burger.png";
 import googlebooksearch from "../../Images/googlebookssearch.png";
 import search from "../../Images/search.png";
 import dashboard from "../../Images/dashboard.png";
+import principalcarer from "../../Images/principalcarer.png";
 
 function ProjectImage() {
   const images = [
     melbourneReboot,
+    googlebooksearch,
+    principalcarer,
     restaurateur,
     weatherDashboard,
     burger,
     dashboard,
     search,
-    googlebooksearch
   ];
 
   const titles = [
     "Melbourne Reboot",
+    "Google Books Search",
+    "Principal Carer",
     "Restaurateur",
     "Weather Dashboard",
     "Eat Da Burger!",
     "Workout Tracker",
     "Employee Directory",
-    "Google Books Search",
   ];
 
   const websites = [
     "https://avpizarro.github.io/melbourneReboot/",
+    "https://fierce-ridge-94216.herokuapp.com/",
+    "https://vast-caverns-75554.herokuapp.com/",
     "https://polar-reaches-51270.herokuapp.com/",
     "https://avpizarro.github.io/weatherDashboard/",
     "https://dry-basin-87988.herokuapp.com/",
     "https://evening-journey-59079.herokuapp.com/",
     "https://quiet-beyond-63990.herokuapp.com/",
-    "https://fierce-ridge-94216.herokuapp.com/",
   ];
 
   const github = [
     "https://github.com/avpizarro/melbourneReboot.git",
+    "https://github.com/avpizarro/googlebookssearchreact.git",
+    "https://github.com/avpizarro/principalcarer.git",
     "https://github.com/avpizarro/restaurateur.git",
     "https://github.com/avpizarro/weatherDashboard.git",
     "https://github.com/avpizarro/burger.git",
     "https://github.com/avpizarro/workoutTracker.git",
     "https://github.com/avpizarro/employeedirectory.git",
-    "https://github.com/avpizarro/googlebookssearchreact.git",
   ];
 
   const linkedImagesElements = [];
@@ -61,7 +66,11 @@ function ProjectImage() {
           <a className="git" href={github[i]} target="_blank">
             {titles[i]}
             <span>
-              <img className="fluidicon" src={githubIcon} alt="Github icon"></img>
+              <img
+                className="fluidicon"
+                src={githubIcon}
+                alt="Github icon"
+              ></img>
             </span>
             GitHub
           </a>
