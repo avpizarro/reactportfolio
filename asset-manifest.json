@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactportfolio/static/css/main.623e6188.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.1b06e1ed.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.1b06e1ed.chunk.js.map",
+    "main.js": "/reactportfolio/static/js/main.352f3235.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.352f3235.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.f43002de.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.f43002de.js.map",
     "static/js/2.5ca52c26.chunk.js": "/reactportfolio/static/js/2.5ca52c26.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/principalcarer.6f3158be.png": "/reactportfolio/static/media/principalcarer.6f3158be.png",
     "static/media/profilePicture.bb6aa059.jpg": "/reactportfolio/static/media/profilePicture.bb6aa059.jpg",
     "static/media/restaurateur.42699825.png": "/reactportfolio/static/media/restaurateur.42699825.png",
-    "static/media/resume.4d4e6b87.png": "/reactportfolio/static/media/resume.4d4e6b87.png",
+    "static/media/resume.c5d62806.pdf": "/reactportfolio/static/media/resume.c5d62806.pdf",
     "static/media/search.963105d3.png": "/reactportfolio/static/media/search.963105d3.png",
     "static/media/weatherDashboard.c9c516e9.png": "/reactportfolio/static/media/weatherDashboard.c9c516e9.png"
   },
@@ -29,6 +29,6 @@
     "static/js/runtime-main.f43002de.js",
     "static/js/2.5ca52c26.chunk.js",
     "static/css/main.623e6188.chunk.css",
-    "static/js/main.1b06e1ed.chunk.js"
+    "static/js/main.352f3235.chunk.js"
   ]
 }
