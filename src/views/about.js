@@ -28,8 +28,9 @@ function About() {
 
           <div className="col-lg-5">
             <p className="profileDescription">
-              Full Stack Development student at Monash, with experience in
-              Fashion Production and Logistics.
+              Full Stack Developer with experience in
+              Fashion Production and Logistics. I am passionate about developing apps to streamline processes 
+and improve communication. 
             </p>
 
             <div className="resume">

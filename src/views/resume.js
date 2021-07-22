@@ -1,4 +1,4 @@
-import ResumeImage from "../Images/resume.png";
+import ResumeImage from "../Images/resume.pdf";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
